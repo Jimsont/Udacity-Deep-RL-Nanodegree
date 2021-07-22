@@ -103,7 +103,7 @@ pip install .
 ```bash
 pip install ipython
 ```
-then
+	then
 ```bash
 python -m ipykernel install --user --name drlnd --display-name "drlnd"
 ```
