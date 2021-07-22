@@ -90,7 +90,7 @@ To set up your python environment to run the code in this repository, follow the
 	- Next, install the **classic control** environment group by following the instructions [here](https://github.com/openai/gym#classic-control).
 		- use command line "pip install gym"
 	- Then, install the **box2d** environment group by following the instructions [here](https://github.com/openai/gym#box2d). 
-		- use command line "pip install ipython" 
+		- use command line "pip3 install Box2D"
 	
 5. Clone the repository (if you haven't already!), and navigate to the `python/` folder.  Then, install several dependencies.
 ```bash
@@ -101,8 +101,14 @@ pip install .
 
 6. Create an [IPython kernel](http://ipython.readthedocs.io/en/stable/install/kernel_install.html) for the `drlnd` environment.  
 ```bash
+pip install ipython
+```
+then
+```bash
 python -m ipykernel install --user --name drlnd --display-name "drlnd"
 ```
+
+
 
 7. Before running code in a notebook, change the kernel to match the `drlnd` environment by using the drop-down `Kernel` menu. 
 
