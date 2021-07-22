@@ -69,8 +69,11 @@ The labs and projects can be found below.  All of the projects use rich simulati
 To set up your python environment to run the code in this repository, follow the instructions below.
 
 1. Install Anaconda
-	
-2. Create (and activate) a new environment with Python 3.6.
+	https://www.anaconda.com/products/individual
+
+2. Start Anaconda and launch CMD.exe Prompt 
+
+3. Create (and activate) a new environment with Python 3.6.
 
 	- __Linux__ or __Mac__: 
 	```bash
@@ -83,24 +86,25 @@ To set up your python environment to run the code in this repository, follow the
 	activate drlnd
 	```
 	
-3. Follow the instructions in [this repository](https://github.com/openai/gym) to perform a minimal install of OpenAI gym.  
+4. Follow the instructions in [this repository](https://github.com/openai/gym) to perform a minimal install of OpenAI gym.  
 	- Next, install the **classic control** environment group by following the instructions [here](https://github.com/openai/gym#classic-control).
+		- use command line "pip install gym"
 	- Then, install the **box2d** environment group by following the instructions [here](https://github.com/openai/gym#box2d). 
-		- pip install ipython
+		- use command line "pip install ipython" 
 	
-4. Clone the repository (if you haven't already!), and navigate to the `python/` folder.  Then, install several dependencies.
+5. Clone the repository (if you haven't already!), and navigate to the `python/` folder.  Then, install several dependencies.
 ```bash
 git clone https://github.com/udacity/deep-reinforcement-learning.git
 cd deep-reinforcement-learning/python
 pip install .
 ```
 
-5. Create an [IPython kernel](http://ipython.readthedocs.io/en/stable/install/kernel_install.html) for the `drlnd` environment.  
+6. Create an [IPython kernel](http://ipython.readthedocs.io/en/stable/install/kernel_install.html) for the `drlnd` environment.  
 ```bash
 python -m ipykernel install --user --name drlnd --display-name "drlnd"
 ```
 
-6. Before running code in a notebook, change the kernel to match the `drlnd` environment by using the drop-down `Kernel` menu. 
+7. Before running code in a notebook, change the kernel to match the `drlnd` environment by using the drop-down `Kernel` menu. 
 
 ![Kernel][image2]
 
