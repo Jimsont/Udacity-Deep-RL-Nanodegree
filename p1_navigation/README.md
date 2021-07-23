@@ -66,7 +66,7 @@ python -m ipykernel install --user --name drlnd --display-name "drlnd"
 
 7. Before running code in a notebook, change the kernel to match the `drlnd` environment by using the drop-down `Kernel` menu. 
 
-![Kernel][image2]
+![image](https://user-images.githubusercontent.com/15081906/126772541-d888eb2a-ec77-4e44-942f-75f1a279b13a.png)
 
 ### Getting Started
 
