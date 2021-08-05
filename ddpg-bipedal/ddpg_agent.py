@@ -147,6 +147,7 @@ class OUNoise:
     def sample(self):
         """Update internal state and return it as a noise sample."""
         x = self.state
+        # random.random() only produce number between (0,1), in many cases, use np.random.normal() so it produce number between -1 and 1
         dx = self.theta * (self.mu - x) + self.sigma * np.array([random.random() for i in range(len(x))])
         self.state = x + dx
         return self.state
